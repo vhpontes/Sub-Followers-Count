@@ -1,0 +1,100 @@
+* {
+  font-family: '{goalbars_fontFamily}', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: {goalbars_textColor};
+  box-sizing: border-box;
+  font-size: {goalbars_goalFontSize}px;
+}
+
+main {
+  color: {goalbars_textColor};
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.row, .column {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.goal-box {
+  --stripeSize: 35px;
+  border: 2px solid {goalbars_borderColor};
+  border-radius: {goalbars_borderRadius}px;
+  box-shadow: 2px 2px 1px {goalbars_shadowColor};
+  padding: 10px 16px;
+  background-color: {goalbars_backgroundColor};
+}
+
+#sub {
+  padding-right: 8px;
+}
+
+#follow {
+  padding-left: 8px;
+}
+
+.label-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  padding-left: 2px;
+  font-size: {goalbars_fontSize}px;
+}
+
+.amount-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount {
+  padding-right: 5px;
+}
+
+.bar-box {
+  display: flex;
+  min-height: 30px;
+  padding: 7px;
+  background-color: {goalbars_barBoxColor};
+  box-shadow: inset 2px 2px 8px {goalbars_barBoxShadowColor};
+  border-radius: {goalbars_barBoxBorderRadius}px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  color: {goalbars_backgroundBarColor};
+  width: 0%;
+  background-color: {goalbars_backgroundBarColor};
+  border-radius: {goalbars_barBorderRadius}px;
+  box-shadow: inset 2px 5px 10px 1px {goalbars_barShadowColor};
+}
+
+.complete .bar {
+  box-shadow: inset 2px 5px 10px 1px {goalbars_completeBarShadowColor};
+  background-color: {goalbars_completeBarColor};
+}
+
+@keyframes gradientShiftDiagonal {
+  from { background-position: 100% 100%; }
+  to { background-position: 0 0; }
+}
