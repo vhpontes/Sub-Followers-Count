@@ -4,8 +4,6 @@
 
 This is a versatile widget for **Stream Elements** designed to help you display and track your subscriber and follower goals directly on your live stream. By providing a clear visual representation of your progress, this tool encourages viewer engagement and celebrates community milestones.
 
----
-
 ## Key Features
 * **Goal Visualization:** Clearly shows your current progress towards your subscriber and follower targets.
 * **Real-time Updates:** Automatically refreshes to reflect your latest counts.
@@ -25,6 +23,9 @@ This is a versatile widget for **Stream Elements** designed to help you display 
 4.  **Paste** the code into the corresponding sections of the widget editor.
 5.  **Configure** your goal targets and desired text directly within the widget's settings.
 
+### License
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](/LICENSE) file for details.
+
 ---
 
 ### Versão em Português (Portuguese Version)
@@ -34,8 +35,6 @@ This is a versatile widget for **Stream Elements** designed to help you display 
 ### Widget para Stream Elements
 
 Este é um widget versátil para o **Stream Elements** projetado para ajudar você a exibir e acompanhar suas metas de inscritos e seguidores diretamente na sua transmissão ao vivo. Ao fornecer uma representação visual clara do seu progresso, esta ferramenta incentiva o engajamento do público e celebra os marcos da sua comunidade.
-
----
 
 ## Principais Recursos
 * **Visualização de Metas:** Mostra claramente seu progresso atual em direção às suas metas de inscritos e seguidores.
@@ -55,3 +54,6 @@ Este é um widget versátil para o **Stream Elements** projetado para ajudar voc
 3.  **Copie** o código dos arquivos `html`, `css` e `js` deste repositório.
 4.  **Cole** o código nas seções correspondentes do editor de widgets.
 5.  **Configure** suas metas e o texto desejado diretamente no painel de configurações do widget.
+
+### License
+Este projeto está licenciado sob a GNU General Public License v3.0 - veja o arquivo [LICENSE](/LICENSE) para detalhes.
